@@ -14,7 +14,7 @@ class Person:
         else:
             raise ValueError("Age must be a positive integer.")
 
-# Example usage
+# Example usage of the Person class
 try:
     person = Person(25)  # Valid age
     print(f"Person's age: {person.age}")
